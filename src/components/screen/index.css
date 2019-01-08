@@ -6,5 +6,11 @@
     font-size: 50px;
     display: inline-block;
     float: right;
+    color: black;
+    background: transparent;
+    text-overflow: hidden;
+}
 
+.screen::placeholder {
+    color: black;
 }

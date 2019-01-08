@@ -3,9 +3,12 @@ import './index.css';
 
 const Screen = (props) => (
 
-    <div className='screen'>
-        {props.value}
-    </div>
+    <input 
+    className='screen'
+    disabled
+    value={props.value}
+    placeholder='0'
+    />
 );
 
 export default Screen;
